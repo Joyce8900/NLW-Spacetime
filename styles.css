@@ -8,9 +8,19 @@ body{
   background-color: #121215;
   color: #EAEAEA;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
 }
 nav{
   padding: 64px;
+}
+
+.memory{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  text-decoration: none;
+  margin-bottom:64px; 
 }
 
 .memory small{
@@ -21,6 +31,7 @@ nav{
 
 .memory h1{
   font-size: 32px;
+  color: #EAEAEA;
 }
 
 .memory img{
