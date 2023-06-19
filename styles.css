@@ -55,6 +55,7 @@ nav{
   display: flex;
   flex-direction: column;
   gap: 16px;
+  
 
   text-decoration: none;
   margin-bottom:64px; 
@@ -69,18 +70,22 @@ nav{
 .memory h1{
   font-size: 2rem;
   color: #EAEAEA;
+  
 }
 
-.memory img{
-
-  width: 100%;
-  height:280px;
-  object-fit: cover;
+.photo {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 280px;
+  object-fit: contain;
   border-radius: 8px;
-
+  
+  flex-direction: center;
+  
   transition: transform 0.3s ease-in-out;
-
 }
+
 .memory div{
   width: 100%;
   height:280px;
@@ -134,7 +139,7 @@ aside span{
   border-radius: 50%;
 
   border: 4px solid transparent;
-  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box, linear-gradient(260deg, #d39e33, #ed5636 ) border-box;
+  /* background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box, linear-gradient(260deg, #d39e33, #ed5636 ) border-box; */
 }
 
 
